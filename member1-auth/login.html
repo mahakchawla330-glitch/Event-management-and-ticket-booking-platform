@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | EventBook</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="wrapper header-inner">
+            <a href="../member4-frontend/index.html" class="logo">🎟 Event<span>Book</span></a>
+            <nav class="top-menu">
+                <a href="../member4-frontend/index.html">Home</a>
+                <a href="../member3-events/categories.html">Categories</a>
+                <a href="../member3-events/events.html">Events</a>
+                <a href="../member2-user/dashboard.html">Dashboard</a>
+                <a href="login.html" class="login-btn active">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login section -->
+    <main class="auth-main">
+        <div class="wrapper">
+            <div class="auth-box">
+
+                <div class="auth-info">
+                    <h2>Welcome Back!</h2>
+                    <p>Log in to manage your bookings and discover new events.</p>
+                    <ul>
+                        <li>🎵 Concerts &amp; Festivals</li>
+                        <li>🏆 Sports &amp; Workshops</li>
+                        <li>🎓 College Events</li>
+                    </ul>
+                </div>
+
+                <div class="auth-form-area">
+                    <h1>Login</h1>
+                    <p class="subtitle">Enter your details to continue</p>
+
+                    <!-- Static form: backend will be connected in a later phase -->
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter your password" required>
+                        </div>
+
+                        <div class="remember-row">
+                            <label><input type="checkbox"> Remember me</label>
+                            <a href="#" class="small-link">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="submit-button">Login</button>
+                    </form>
+
+                    <p class="switch-text">
+                        New here? <a href="signup.html">Create an account</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 EventBook. College Project.</p>
+    </footer>
+
+</body>
+</html>
