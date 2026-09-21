@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details | EventBook</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="wrapper header-inner">
+            <a href="../member4-frontend/index.html" class="logo">🎟 Event<span>Book</span></a>
+            <nav class="top-menu">
+                <a href="../member4-frontend/index.html">Home</a>
+                <a href="categories.html">Categories</a>
+                <a href="events.html" class="active">Events</a>
+                <a href="../member2-user/dashboard.html">Dashboard</a>
+                <a href="../member1-auth/login.html" class="login-btn">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Event banner -->
+    <section class="details-banner">
+        <div class="wrapper">
+            <span class="category-tag">Concert</span>
+            <h1>Sufi Night Live</h1>
+            <p>📅 15 Nov 2026 &nbsp;&bull;&nbsp; ⏰ 7:00 PM &nbsp;&bull;&nbsp; 📍 Open Air Theatre, Delhi</p>
+        </div>
+    </section>
+
+    <main class="wrapper details-layout">
+
+        <!-- Left side -->
+        <section>
+            <div class="panel">
+                <h2>Event Trailer</h2>
+                <!-- Plain HTML5 video: no JavaScript needed -->
+                <video class="trailer" controls preload="metadata" poster="media/trailer-poster.jpg">
+                    <source src="media/sufi-night-trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="panel">
+                <h2>About This Event</h2>
+                <p>
+                    Experience an evening of soulful Sufi music, Qawwali and Bollywood favourites under the open sky. Talented artists from across India will perform on one stage with lights, lanterns and food stalls. Bring your friends and family for a night full of music and magic.
+                </p>
+            </div>
+
+            <div class="panel">
+                <h2>Event Information</h2>
+                <ul class="info-list">
+                    <li><span>Date</span><strong>15 Nov 2026</strong></li>
+                    <li><span>Time</span><strong>7:00 PM onwards</strong></li>
+                    <li><span>Location</span><strong>Open Air Theatre, Delhi</strong></li>
+                    <li><span>Category</span><strong>Concert</strong></li>
+                </ul>
+            </div>
+
+            <div class="panel">
+                <h2>Organizer</h2>
+                <div class="organizer-box">
+                    <div class="organizer-logo">RE</div>
+                    <div>
+                        <h3>Raagini Events</h3>
+                        <p>Organising live music shows across India since 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right side: tickets -->
+        <aside class="ticket-panel">
+            <h2>Ticket Information</h2>
+
+            <div class="ticket-row">
+                <div>
+                    <strong>General</strong>
+                    <p>Standing area</p>
+                </div>
+                <span class="price">₹499</span>
+            </div>
+
+            <div class="ticket-row">
+                <div>
+                    <strong>VIP</strong>
+                    <p>Front seats + snacks</p>
+                </div>
+                <span class="price">₹1499</span>
+            </div>
+
+            <div class="ticket-row">
+                <div>
+                    <strong>Student</strong>
+                    <p>Valid ID required</p>
+                </div>
+                <span class="price">₹299</span>
+            </div>
+
+            <!-- Booking will be added in a later phase -->
+            <a href="#" class="book-link">Book Now</a>
+            <a href="#" class="tickets-link">View Tickets</a>
+            <a href="events.html" class="back-link">← Back to Events</a>
+        </aside>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 EventBook. College Project.</p>
+    </footer>
+
+</body>
+</html>
